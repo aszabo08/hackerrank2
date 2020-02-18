@@ -1,0 +1,13 @@
+def rotLeft(a, d):
+    
+    new_order = []
+    
+    for i in range(d, len(a)):
+
+        new_order.append(a[i])
+        
+    for i in range(d):
+        
+        new_order.append(a[i])
+        
+    return new_order
